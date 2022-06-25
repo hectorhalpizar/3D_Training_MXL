@@ -1,0 +1,39 @@
+﻿Build started 5/25/2014 11:33:24 PM.
+     1>Project "C:\Fuentes\3D_Training_MXL\Task12\NewTrainingFramework\NewTrainingFramework\NewTrainingFramework.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Fuentes\3D_Training_MXL\Task12\NewTrainingFramework\\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\NewTrainingFramework.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Fuentes\3D_Training_MXL\Task12\NewTrainingFramework\\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\NewTrainingFramework.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Fog.cpp KeyboardHandler.cpp Log.cpp Model.cpp NewTrainingFramework.cpp Object.cpp ResourceManager.cpp SceneManager.cpp Shaders.cpp Texture.cpp
+         Texture.cpp
+         Shaders.cpp
+         SceneManager.cpp
+         ResourceManager.cpp
+         Object.cpp
+         NewTrainingFramework.cpp
+         Model.cpp
+         Log.cpp
+         KeyboardHandler.cpp
+         Fog.cpp
+         Camera.cpp
+         Generando código...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Fuentes\3D_Training_MXL\Task12\NewTrainingFramework\\BIN\NewTrainingFramework.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Fuentes\3D_Training_MXL\Task12\NewTrainingFramework\\Lib libEGL.lib libGLESv2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Fuentes\3D_Training_MXL\Task12\NewTrainingFramework\\BIN\NewTrainingFramework.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Fuentes\3D_Training_MXL\Task12\NewTrainingFramework\\BIN\NewTrainingFramework.lib" /MACHINE:X86 /SAFESEH Debug\Camera.obj
+         Debug\Fog.obj
+         Debug\KeyboardHandler.obj
+         Debug\Log.obj
+         Debug\Model.obj
+         Debug\NewTrainingFramework.obj
+         Debug\Object.obj
+         Debug\ResourceManager.obj
+         Debug\SceneManager.obj
+         Debug\Shaders.obj
+         Debug\stdafx.obj
+         Debug\Texture.obj
+         C:\Fuentes\3D_Training_MXL\Task12\NewTrainingFramework\Debug\Utilities.lib
+     1>Camera.obj : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/SAFESEH'
+         NewTrainingFramework.vcxproj -> C:\Fuentes\3D_Training_MXL\Task12\NewTrainingFramework\\BIN\NewTrainingFramework.exe
+     1>Done Building Project "C:\Fuentes\3D_Training_MXL\Task12\NewTrainingFramework\NewTrainingFramework\NewTrainingFramework.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.58

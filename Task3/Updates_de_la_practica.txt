@@ -1,0 +1,18 @@
+--------------------
+03 de Julio del 2013
+--------------------
+	+ Clase Camara 
+	+ Definicion de los metodos de las 4 rotaciones (arriba, abajo, izquierda, derecha).
+	+ Definicion de los metodos de los 4 movimientos (enfrente, atras, abajo, arriba).
+	+ Definicion del metodo de CalcWorldMatrix.
+	* Probando CalcWorldMatrix con el metodo usando el metodo de la practica anterior en
+	  la clase NewTrainingFramework
+	  
+--------------------
+04 de Julio del 2013
+--------------------
+	* Practica completada con correciones del feedback
+		- Modificacion de metodos
+		- Llamado de los comandos cambiados con respecto a flechas y A/S/D/W
+		- Correcion de la World Matrix de la camara
+	

@@ -1,0 +1,83 @@
+#Models: 7
+ID 0
+FILE ".\\Models\\Woman2.nfg"
+ID 1
+FILE ".\\Models\\train.nfg"
+ID 2
+FILE ".\\Models\\Terrain.nfg"
+ID 3
+FILE ".\\Models\\Woman1.nfg"
+ID 4
+FILE ".\\Models\\SkyBox.nfg"
+ID 5
+FILE ".\\Models\\Bila.nfg"
+ID 6
+FILE ".\\Models\\fire.nfg"
+
+#2D_Textures: 10
+ID 0
+FILE ".\\Textures\\Woman2.tga"
+MODE GL_CLAMP_TO_EDGE 
+ID 1
+FILE ".\\Textures\\train.tga"
+MODE GL_CLAMP_TO_EDGE
+ID 2
+FILE ".\\Textures\\Grass.tga"
+MODE GL_REPEAT
+ID 3
+FILE ".\\Textures\\Dirt.tga"
+MODE GL_REPEAT
+ID 4
+FILE ".\\Textures\\Rock.tga"
+MODE GL_REPEAT
+ID 5
+FILE ".\\Textures\\Terrain_blend_map.tga"
+MODE GL_REPEAT
+ID 6
+FILE ".\\Textures\\Woman1.tga"
+MODE GL_CLAMP_TO_EDGE
+ID 7
+FILE ".\\Textures\\fire3.tga"
+MODE GL_CLAMP_TO_EDGE
+ID 8
+FILE ".\\Textures\\fire_mask.tga"
+MODE GL_CLAMP_TO_EDGE
+ID 9
+FILE ".\\Textures\\DisplacementMap.tga"
+MODE GL_REPEAT 
+
+#Cube_Textures: 1
+ID 0
+FILE ".\\Textures\\envMapReversed.tga"
+
+#Shaders: 5
+ID 0
+VS ".\\Shaders\\TriangleShaderVS.vs"
+FS ".\\Shaders\\TriangleShaderFS.fs"
+STATES 2
+GL_CULL_FACE
+GL_DEPTH_TEST
+ID 1
+VS ".\\Shaders\\TerrainFogShaderVS.vs"
+FS ".\\Shaders\\TerrainFogShaderFS.fs"
+STATES 2
+GL_CULL_FACE
+GL_DEPTH_TEST
+ID 2
+VS ".\\Shaders\\SkyboxShaderVS.vs"
+FS ".\\Shaders\\SkyboxShaderFS.fs"
+STATES 2
+GL_CULL_FACE
+GL_DEPTH_TEST
+ID 3
+VS ".\\Shaders\\SkyReflectionShaderVS.vs"
+FS ".\\Shaders\\SkyReflectionShaderFS.fs"
+STATES 2
+GL_CULL_FACE
+GL_DEPTH_TEST
+ID 4
+VS ".\\Shaders\\TriangleShaderVS.vs"
+FS ".\\Shaders\\FireShaderFS.fs"
+STATES 2
+GL_CULL_FACE
+GL_DEPTH_TEST
